@@ -27,6 +27,7 @@ body:before {
 }
 
 .jumbotron {
+  font-family: 'Orbitron', sans-serif;
   color: white;
   background: rgba(0,0,0,0);
   border: none;
