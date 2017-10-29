@@ -1,0 +1,42 @@
+body:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background: black;
+  background-image: url('https://s.aolcdn.com/hss/storage/midas/ed1b0db49b03b9a137e7dd10f91c267d/205597872/Xbox+ONe+X+1.jpg');
+  width: 4200px;
+  height: 2800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.jumbotron {
+  color: white;
+  background: rgba(0,0,0,0);
+  border: none;
+}
+
+.styled-button {
+  margin: 10px;
+}
+
+.styled-gif {
+  margin: 10px;
+  float: left;
+}
